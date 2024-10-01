@@ -2,10 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>E-Gadgets</title>
+  <!--Link to Boxicons-->>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link  href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" 
+  rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+      <!-- Link Swiper's CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
-  <p>Welcome to Our Website</p>
+<header class="header">
+    <a href="#" class="logo"><i class='bx bxl-unity'></i></i></i>Electronics</a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <div class="navbar">
+        <li><a href="#home" class="home-active">Home</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#devices">Devices</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#coustomers">Customers</a></li>
+    </div>
+</header>
+
+
+<!--introsection-->
+<section class="Home">
+  <div class="home-full">
+<div class="home-text1">
+  <h1>Welcome to the Digital  World <br> of Wonders </h1>
+  
+</div>
+<div class="home-image">
+<img class="home-img"  src="nuralnet.avif" alt="">
+</div>
+</div>
+</section>
+<section class="home swiper" id="home">
+  <div class="swiper-wrapper">
+      <!--slide 1-->
+      <div class="swiper-slide container">
+          <div class="home-text">
+          
+          <h1>Bestseller</h1>
+          <span>Details</span>
+          <a href="#" class="btn">Shop Now<i class='bx bx-right-arrow-alt'></i></a>
+      </div>
+      <div> <img class="lap" src="lap1.avif" alt=""></div>
+      </div>
+    <!--slide 2-->
+    <div class="swiper-slide container">
+      <div class="home-text">
+        <h1>MacBook Air</h1>
+        <span>Details</span>
+      
+      <a href="#" class="btn">Shop Now<i class='bx bx-right-arrow-alt'></i></a>
+    </div>
+    <div> <img class="lap" src="lap3.avif" alt=""></div>
+    </div>
+  <!--slide 3-->
+  <div class="swiper-slide container">
+      <div class="home-text">
+        <h1>Lenovo</h1>
+        <span>Details</span>
+     
+      <a href="#" class="btn">Shop Now<i class='bx bx-right-arrow-alt'></i></a>
+    </div>
+    <div> <img class="lap" src="mobile1.avif" alt=""></div>
+   
+    </div>
+  </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  
+  </section>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!--Link to Java Script-->
+<script src="script1.js" ></script>
 </body>
 </html>
