@@ -1,0 +1,193 @@
+*{
+    font-family: Roboto,Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-padding-top:2rem ;
+    scroll-behavior: smooth;
+    z-index: -1;
+}
+header
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:white;
+    box-shadow:0 8px 11px rgb(14 55 54/ 15%) ;
+    padding: 20px 100px;
+    transition: 0.5s;
+}
+.logo
+{
+    font-size: 40px;
+    font-weight: 500;
+    
+}
+.logo .bx
+{
+    margin-left: -4px;
+    size: 25px;
+    color: chocolate;
+    padding-right: 5px;
+}
+.navbar{
+    display: flex;
+    column-gap: 55px;
+    z-index: 1000;
+}
+.navbar a
+{
+    font-size: 1rem;
+    padding: 0.5rem .45rem;
+    color: black;
+    font-weight: 500;
+}
+.navbar a:hover
+{
+    color: white;
+    background-color: rgb(157, 208, 246);
+    border-radius: 5px;
+}
+
+.home-text1
+{
+    font-size: 30px;
+    padding-top: 200px;
+    padding-left: 40px;
+    background: linear-gradient(90deg,#c33764 20%,#1d2671);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.home-full
+{
+    display: flex;
+    column-gap: 20px;
+    
+    position: relative;
+    z-index: 100;
+}
+.home-image
+{
+ padding-top: 200px;
+ padding-left: 250px;
+}
+.home-img
+{
+    width: 350px;
+    position: relative;
+    right: 90px;
+}
+.bx-menu
+{
+   display: none;
+   z-index: 100000;
+}
+
+.lap
+{
+    width: 40%;
+    position: relative;
+    right: -700px;
+    top: 10px;
+
+}
+.home-text
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 220px;
+    left: 200px;
+}
+.home-text h1
+{
+    font-size: 30px;
+    background: linear-gradient(90deg,#000000 ,#ff9640 10% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.home-text span
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+ .btn{
+    font-size: 20px;
+    padding: 1rem 0.5rem;
+    background-color: aquamarine;
+    width: 150px;
+    border-radius: 30px;
+   margin-top: 10px;
+  
+
+   
+}
+.btn .bx
+{
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 2px;
+    left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
