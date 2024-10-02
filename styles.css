@@ -152,8 +152,7 @@ header
     top: 2px;
     left: 10px;
 }
-
-  .menu-icon
+.menu-icon
   {
    position: relative;
    top: 1px;
@@ -186,10 +185,6 @@ header
   #list.visible {
   display: block;
 }
-
-
-  
-
 
 
 
