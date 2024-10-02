@@ -6,25 +6,16 @@ var swiper = new Swiper(".home", {
       prevEl: ".swiper-button-prev",
     },
 });
-function show_list()
-{
+function show_list() {
   var device = document.getElementById("list");
-
-
-  if (device.style.display == "block")
-  {
-    device.style.display == "none";
-  }
-  else
-  {
-    device.style.display == "block";
-    }
+  device.classList.toggle("visible");  // Toggle visibility
 }
-window.onclick = function (event)
-{
-  if (!event.target.matches('.menu-icon'))
-  {
-    document.getElementById('list')
-      .style.display = "none";
+
+window.onclick = function(event) {
+  if (!event.target.matches('.menu-icon')) {
+    var dropdown = document.getElementById("list");
+    if (dropdown.classList.contains('visible')) {
+      dropdown.classList.remove('visible');
+    }
   }
 }

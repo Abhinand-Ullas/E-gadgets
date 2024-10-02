@@ -22,13 +22,15 @@
 
         <li><a href="#home" class="home-active">Home</a></li>
         <div class="separator"></div>
-        <div><a class="menu-icon" onclick="show_list()">Devices</a>
+        
+        <li class="menu-icon" onclick="show_list()"><a href="#device">Devices</a></li>
 
-        <div class="device" id="list">
-          <li><a href="#lap">Laptops</a></li>
-          <li><a href="#mob">Mobiles</a></li>
+        <div class="dropdown" id="list">
+          <a href="#lap" class="dropdown-item">Laptops</a>
+          <a href="#mob" class="dropdown-item">Mobiles</a>
         </div>
-      </div>
+  
+      
         <div class="separator"></div>
         <li><a href="#about">About</a></li>
         <div class="separator"></div>
