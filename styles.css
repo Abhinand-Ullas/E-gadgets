@@ -9,6 +9,9 @@
     scroll-behavior: smooth;
     z-index: -1;
 }
+body{
+    background-color: #000000;
+}
 header
 {
     position: fixed;
@@ -19,8 +22,8 @@ header
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background:white;
-    box-shadow:0 8px 11px rgb(14 55 54/ 15%) ;
+    background:#000000;
+   
     padding: 20px 100px;
     transition: 0.5s;
 }
@@ -37,23 +40,36 @@ header
     color: chocolate;
     padding-right: 5px;
 }
-.navbar{
+.nav{
     display: flex;
-    column-gap: 55px;
+    column-gap: 45px;
     z-index: 1000;
+    
+
 }
-.navbar a
+.nav a
 {
     font-size: 1rem;
-    padding: 0.5rem .45rem;
-    color: black;
+    padding: .25rem 1rem;
+    color:white;
     font-weight: 500;
+    position: relative;
+    top: 5px;
+    
 }
-.navbar a:hover
+.separator
 {
-    color: white;
-    background-color: rgb(157, 208, 246);
+    border-right: 2px solid #ee00ffe8;
+    height: 30px;
+}
+.nav :hover
+{
+    background-color: #ee00ffe8;
     border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition:  .17s;
+    
 }
 
 .home-text1
@@ -61,9 +77,9 @@ header
     font-size: 30px;
     padding-top: 200px;
     padding-left: 40px;
-    background: linear-gradient(90deg,#c33764 20%,#1d2671);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+   background: linear-gradient(120deg,#110c0c 15% ,#ff9640 40% );
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 .home-full
 {
@@ -109,7 +125,7 @@ header
 .home-text h1
 {
     font-size: 30px;
-    background: linear-gradient(90deg,#000000 ,#ff9640 10% );
+    background: linear-gradient(90deg,#110c0c  ,#ff9640 10% );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -138,6 +154,7 @@ header
     top: 2px;
     left: 10px;
 }
+
 
 
 

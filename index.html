@@ -17,13 +17,23 @@
 <header class="header">
     <a href="#" class="logo"><i class='bx bxl-unity'></i></i></i>Electronics</a>
 
-    <div class="bx bx-menu" id="menu-icon"></div>
-    <div class="navbar">
+    <div class="bx bx-menu" id="menu"></div>
+    <div class="nav">
+
         <li><a href="#home" class="home-active">Home</a></li>
-        <li><a href="#categories">Categories</a></li>
-        <li><a href="#devices">Devices</a></li>
+        <div class="separator"></div>
+        <div><a class="menu-icon" onclick="show_list()">Devices</a>
+
+        <div class="device" id="list">
+          <li><a href="#lap">Laptops</a></li>
+          <li><a href="#mob">Mobiles</a></li>
+        </div>
+      </div>
+        <div class="separator"></div>
         <li><a href="#about">About</a></li>
+        <div class="separator"></div>
         <li><a href="#coustomers">Customers</a></li>
+        <div class="separator"></div>
     </div>
 </header>
 
@@ -40,6 +50,7 @@
 </div>
 </div>
 </section>
+<!--slide section-->
 <section class="home swiper" id="home">
   <div class="swiper-wrapper">
       <!--slide 1-->
@@ -50,7 +61,7 @@
           <span>Details</span>
           <a href="#" class="btn">Shop Now<i class='bx bx-right-arrow-alt'></i></a>
       </div>
-      <div> <img class="lap" src="lap1.avif" alt=""></div>
+      <div class="lap-div"> <img class="lap" src="lap1.avif" alt=""></div>
       </div>
     <!--slide 2-->
     <div class="swiper-slide container">
@@ -76,8 +87,9 @@
   </div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
-  
   </section>
+
+
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <!--Link to Java Script-->
