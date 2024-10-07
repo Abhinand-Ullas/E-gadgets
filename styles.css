@@ -79,34 +79,6 @@ header
     
 }
 
-.home-text1
-{
-    font-size: 30px;
-    padding-top: 200px;
-    padding-left: 40px;
-   background: linear-gradient(120deg,#110c0c 15% ,#ff9640 40% );
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-}
-.home-full
-{
-    display: flex;
-    column-gap: 20px;
-    
-    position: relative;
-    z-index: 100;
-}
-.home-image
-{
- padding-top: 200px;
- padding-left: 250px;
-}
-.home-img
-{
-    width: 350px;
-    position: relative;
-    right: 90px;
-}
 .bx-menu
 {
    display: none;
