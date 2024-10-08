@@ -21,68 +21,63 @@
 body{
     background-color: #000000;
 }
-header
-{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background:#000000;
-   
-    padding: 20px 100px;
-    transition: 0.5s;
-}
-.logo
-{
-    font-size: 40px;
-    font-weight: 500;
-    
-}
-.logo .bx
-{
-    margin-left: -4px;
-    size: 25px;
-    color: chocolate;
-    padding-right: 5px;
-}
-.navbar{
-    display: flex;
-    column-gap: 45px;
-    z-index: 1000;
-}
-.navbar a
-{
-    font-size: 1rem;
-    padding: .25rem 1rem;
-    color:white;
-    font-weight: 500;
-    position: relative;
-    top: 5px;
-    
-}
+
 .separator
 {
     border-right: 2px solid #ee00ffe8;
     height: 30px;
 }
-.navbar :hover
+
+.header
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 100px;
+    transition: 0.5s;
+    background-color: black;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    column-gap: 0.5rem;
+}
+.logo .bx
+{
+    font-size: 35px;
+    color: var(--orange-color);
+}
+.navbar
+{
+    display: flex;
+    column-gap: 2.25rem;
+}
+.navbar a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+.navbar a:hover,.navbar .home-active
 {
     background-color: #ee00ffe8;
-    border-radius: 5px;
-    cursor: pointer;
-    transform: scale(1.05);
-    transition:  .17s;
-    
+    border-radius: .2rem;
+    transition: background 0.5s;
 }
-
-.bx-menu
+#menu
 {
-   display: none;
-   z-index: 100000;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
 }
 
 .lap
@@ -120,10 +115,9 @@ header
     background-color: aquamarine;
     width: 150px;
     border-radius: 30px;
-   margin-top: 10px;
-  
+    margin-top: 10px;
+    color: white;
 
-   
 }
 .btn .bx
 {
@@ -131,6 +125,7 @@ header
     border-radius: 50%;
     position: relative;
     top: 2px;
+    color: black;
     left: 10px;
 }
 .menu-icon
@@ -257,8 +252,111 @@ header
 {
     color: white;
 }
-
-
+.social
+{
+    margin-left: -17px;
+    padding-top: 10px;
+    display: flex;
+    column-gap: 7px;
+    width:130px ;
+    align-items: center;
+}
+.social .bx
+{
+    padding: 10px;
+    background: var(--bg-color);
+    color: var(--green-color);
+    border-radius: 5rem;
+    font-size: 17px;
+}
+.social .bx:hover
+{
+    background: var(--green-color);
+    color: var(--bg-color);
+    transition: 0.2s all linear;
+}
+.footerchanges{
+    padding-left: 25px;
+}
+.footer-box
+{
+    margin-top: -40px;
+}
+.footer-box
+{
+    padding: 30px 10px;
+    margin-bottom: -30px;
+    display: flex;
+    flex-direction:column ;
+}
+.footer-box p
+{
+    font-size: 0.938rem;
+    margin: 0.5rem 0 1rem;
+}
+.footer
+{
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    padding-top: 20px;
+}
+.footer-box h2
+{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom:1rem;
+}
+.footer-box a
+{
+    color: #868a92;
+    margin-bottom: 1rem;
+}
+.Mobiles
+{
+    padding-left: 70px;
+}
+.footer-box a:hover
+{
+    color: var(--light-orange-color);
+}
+.footer-box form
+{
+    border-bottom: 1px solid var(--text-color);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.footer-box form input{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.footer-box form .bx
+{
+    font-size: 20px;
+    color: var(--light-orange-color);
+    cursor: pointer;
+}
+.footer-box form .bxs-envelope
+{
+    color: var(--green-color);
+}
+.copyright
+{
+    text-align: center;
+    padding: 20px;
+}
+.footer
+{
+    box-shadow: 1px 2px 11px 4px rgba(34, 131, 131, 0.15);
+}
 
 
 
