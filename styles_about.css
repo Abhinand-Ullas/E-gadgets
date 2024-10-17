@@ -1,0 +1,17 @@
+.heading,.description{
+  text-align: center;
+  color: #7F9F9F; 
+  background-image: linear-gradient(45deg, #7F9F9F 64%, #86A9AB 25%, #91B4B7 90%, #9EC0C4 88%, #ACD3D6 34%, #B8E1E4 47%, #C5EFEF 45%); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+ }
+body{
+  background-color: black;
+}      
+.description{
+  font-size: 25px;
+}
+.heading{
+  font-size: 30px;
+}
