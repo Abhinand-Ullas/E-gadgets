@@ -1,17 +1,62 @@
 .heading,.description{
   text-align: center;
   color: #7F9F9F; 
-  background-image: linear-gradient(45deg, #7F9F9F 64%, #86A9AB 25%, #91B4B7 90%, #9EC0C4 88%, #ACD3D6 34%, #B8E1E4 47%, #C5EFEF 45%); 
+  background-image: linear-gradient(45deg, #7F9F9F 64%, #86A9AB 25%, #91B4B7 90%, #9EC0C4 88%, #ACD3D6 34%, #B8E1E4 47%); 
   background-clip: text; 
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent; 
  }
 body{
   background-color: black;
+  
 }      
 .description{
   font-size: 25px;
 }
 .heading{
   font-size: 30px;
+}
+.image img
+{
+  padding-left: 15px;
+  padding-top: 20px;
+  width: 400px;
+  height: 350px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.image p
+{
+  color:#7F9F9F; 
+  padding-left: 500px;
+  
+  
+  margin-top: -300px;
+}
+.image .p
+{
+  padding-top: 300px;
+}
+.image h1
+{
+  padding-left: 500px;
+  position: relative;
+  top: 90px;
+  color: #7F9F9F;
+}
+.image h2
+{
+  color: #7F9F9F;
+}
+.image h2.lap
+{
+  position: relative;
+  top: -300px;
+ 
+  padding-left: 500px;
+}
+.image h2.mob
+{
+ 
+  padding-left: 500px;
 }

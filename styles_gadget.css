@@ -7,7 +7,15 @@
   text-decoration: none;
   scroll-padding-top:2rem ;
   scroll-behavior: smooth;
-  z-index: -1;
+}
+:root
+{
+    --green-color:#3cb815;
+    --light-green-color:#c0eb7b;
+    --orange-color:#ff7e00;
+    --light-orange-color:#f75f1d;
+    --text-color:#1a2428;
+    --bg-color:white;
 }
 .logo
 {
@@ -17,15 +25,19 @@
     font-weight: 600;
     column-gap: 0.5rem;
     color: #d5d5d5e8;
+    position: relative;
+    left: 100px;
     
 }
 .logo .bx
 {
     font-size: 35px;
     color: #ee00ffe8;
+    padding-top: 1px;
 }
 body{
   background-color: black;
+  padding-bottom: 20px;
 }
 .separator
 {
@@ -47,9 +59,9 @@ body{
     background-color: black;
 }
 .navbar
-{   padding: 17px 320px;
+{   padding: 17px 300px;
     display: flex;
-    column-gap: 4.5rem;
+    column-gap: 3.5rem;
 }
 .navbar a{
   font-size: 1rem;
@@ -66,5 +78,198 @@ body{
 .wishlist{
   height: 30px;
   width: 30px;
-  padding-bottom: 5px;
+  position: relative;
+  top: -3px;
+}
+.laptops
+{
+    padding-top: 30px;
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.laptops-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.laptops-container .box{
+    padding: 20px;
+    box-shadow: 1px 2px 11px 4px rgba(37, 48, 47, 0.15);
+    border-radius: 0.5rem;
+    position: relative;
+}
+.laptops-container .box img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+    position: relative;
+
+}
+.laptops-container .box span{
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+}
+.laptops-container .box h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.heading  h1
+{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: aquamarine;
+  font-size: 30px;
+}
+
+.bt
+{
+    color: #4bbcf1e8;
+    font-size: 30px;
+}
+.laptops-container .box .price
+{
+    font-size: 1rem;
+font-weight: 600;
+    margin-top: 0.5rem;
+    color: #ee00ffe8;
+}
+.laptops-container .box .price span{
+    color: var(--text-color);
+}
+.laptops-container .box .bx-cart-alt
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    background: var(--green-color);
+    color: var(--bg-color);
+    font-size: 20px;
+    border-radius: 0.5rem 0 0.5rem 0;
+    cursor: pointer;
+}
+.laptops-container .box .bx-cart-alt:hover
+{
+    background-color: #ee00ffe8;
+}
+.laptops-container .box .bx-heart
+{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 20px;
+    color: #ee00ffe8;
+}
+.laptops-container .box .discount
+{
+    position: absolute;
+    top: 1rem;
+    left: 0rem;
+    color: var(--bg-color);
+    padding: 4px 18px;
+    background: #ee00ffe8;
+    clip-path: polygon(100% 0%, 75% 50%,100% 100%,0 100%,0% 50%,0 0);
+}
+.mobiles
+{
+    padding-top: 30px;
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.mobiles-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.mobiles-container .box{
+    padding: 20px;
+    box-shadow: 1px 2px 11px 4px rgba(37, 48, 47, 0.15);
+    border-radius: 0.5rem;
+    position: relative;
+}
+.mobiles-container .box img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+    position: relative;
+
+}
+.mobiles-container .box span{
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+}
+.mobiles-container .box h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.heading  h1
+{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: aquamarine;
+  font-size: 30px;
+}
+
+.bt
+{
+    color: #4bbcf1e8;
+    font-size: 30px;
+}
+.mobiles-container .box .price
+{
+    font-size: 1rem;
+font-weight: 600;
+    margin-top: 0.5rem;
+    color: #ee00ffe8;
+}
+.mobiles-container .box .price span{
+    color: var(--text-color);
+}
+.mobiles-container .box .bx-cart-alt
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    background: var(--green-color);
+    color: var(--bg-color);
+    font-size: 20px;
+    border-radius: 0.5rem 0 0.5rem 0;
+    cursor: pointer;
+}
+.mobiles-container .box .bx-cart-alt:hover
+{
+    background-color: #ee00ffe8;
+}
+.mobiles-container .box .bx-heart
+{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 20px;
+    color: #ee00ffe8;
+}
+.mobiles-container .box .discount
+{
+    position: absolute;
+    top: 1rem;
+    left: 0rem;
+    color: var(--bg-color);
+    padding: 4px 18px;
+    background: #ee00ffe8;
+    clip-path: polygon(100% 0%, 75% 50%,100% 100%,0 100%,0% 50%,0 0);
 }
