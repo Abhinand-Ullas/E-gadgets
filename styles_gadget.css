@@ -97,7 +97,7 @@ body{
 }
 .laptops-container .box{
     padding: 20px;
-    box-shadow: 1px 2px 11px 4px rgba(37, 48, 47, 0.15);
+    box-shadow: 1px 2px 11px 4px rgba(2, 116, 182, 0.185);
     border-radius: 0.5rem;
     position: relative;
 }
@@ -132,6 +132,12 @@ body{
 {
     color: #4bbcf1e8;
     font-size: 30px;
+    
+}
+.heading
+{
+    margin-bottom: 70px;
+    margin-top: 70px;
 }
 .laptops-container .box .price
 {
@@ -193,7 +199,7 @@ font-weight: 600;
 }
 .mobiles-container .box{
     padding: 20px;
-    box-shadow: 1px 2px 11px 4px rgba(37, 48, 47, 0.15);
+    box-shadow: 1px 2px 11px 4px rgba(14, 182, 2, 0.16);
     border-radius: 0.5rem;
     position: relative;
 }
@@ -218,10 +224,16 @@ font-weight: 600;
 
 .heading  h1
 {
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  margin-top: 50px;
+  margin-bottom: 20px;
   color: aquamarine;
   font-size: 30px;
+  box-shadow: 1px 2px 11px 4px rgba(2, 116, 182, 0.311);
+  width: 300px;
+
 }
 
 .bt
