@@ -60,3 +60,47 @@ body{
  
   padding-left: 500px;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: .01; 
+  }
+  to {
+    opacity: 1; 
+  }
+}
+
+
+.heading {
+  animation: fadeIn 4s forwards; 
+}
+
+.description {
+  animation: fadeIn 4s forwards;
+ 
+}
+
+.image img {
+  animation: fadeIn 4s forwards;
+ 
+}
+
+.image p {
+  animation: fadeIn 4s forwards;
+  
+}
+
+.image h1 {
+  animation: fadeIn 4s forwards;
+  
+}
+
+.image h2.lap {
+  animation: fadeIn 4s forwards;
+  
+}
+
+.image h2.mob {
+  animation: fadeIn 4s forwards;
+
+}
