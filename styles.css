@@ -1,22 +1,3 @@
-*{
-    font-family: Roboto,Arial;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    scroll-padding-top:2rem ;
-    scroll-behavior: smooth;
-}
-:root
-{
-    --green-color:#3cb815;
-    --light-green-color:#c0eb7b;
-    --orange-color:#ff7e00;
-    --light-orange-color:#f75f1d;
-    --text-color:#1a2428;
-    --bg-color:white;
-}
 body{
     background-color: #000000;
 }
